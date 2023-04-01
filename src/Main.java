@@ -13,7 +13,11 @@ public class Main {
         System.out.println(CplusD);
 
         String isAplusBbiggerThanCplusD = AplusB >= CplusD ? "true" : "false";
+
         System.out.println(isAplusBbiggerThanCplusD);
+        System.out.println(AplusB > CplusD);
+
+
 
 
         System.out.println (++AplusB);
@@ -23,7 +27,11 @@ public class Main {
 
 
         String isAplusBbiggerThanCplusDx2 = AplusB >= CplusD ? "true" : "false";
+
         System.out.println(isAplusBbiggerThanCplusDx2);
+        System.out.println(AplusB > CplusD);
+
+
 
 
 
@@ -33,9 +41,23 @@ public class Main {
         int CplusDostatok = CplusD % 2;
         System.out.println(CplusDostatok);
 
+        boolean isAplusBostatokEven= AplusBostatok==0;
+        boolean isCplusDostatokEven= CplusDostatok==0;
 
-        String result = AplusBostatok == CplusDostatok ? "true" : "false";
-        System.out.printf(result);
+        String result = isAplusBostatokEven || isCplusDostatokEven ? "true" : "false";
+
+        System.out.println(result);
+        System.out.println (isAplusBostatokEven || isCplusDostatokEven);
+
+
+        System.out.println("Irina, thank you for help!");
+
+
+
+
+
+
+
 
 
 
